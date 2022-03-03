@@ -16,6 +16,7 @@ function App() {
   const increase = () =>{
     setQuantity(quantity+1);
   }
+  
   return (
     <div>
         <p>{quantity}</p>
